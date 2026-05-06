@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED DUDAS | Dota 2 Team</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+            background: radial-gradient(circle, #2a0000 0%, #050505 70%);
+        }
+
+        .logo {
+            max-width: 300px;
+            filter: drop-shadow(0 0 20px #ff4500);
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #ff4500;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .roster {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .player-card {
+            background: #111;
+            border: 2px solid #333;
+            padding: 20px;
+            width: 150px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+
+        .player-card:hover {
+            border-color: #ff4500;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.4);
+            transform: translateY(-10px);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ff4500;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #cc3700;
+        }
+
+        footer {
+            padding: 40px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Замени logo.png на название своего файла с кабаном -->
+    <img src="logo.png" alt="RED DUDAS LOGO" class="logo">
+    <h1>RED DUDAS</h1>
+    <p>Official Dota 2 Esports Team</p>
+</header>
+
+<div class="container">
+    <h2>Состав команды</h2>
+    <div class="roster">
+        <div class="player-card"><h3>Carry</h3><p>Player 1</p></div>
+        <div class="player-card"><h3>Mid</h3><p>Player 2</p></div>
+        <div class="player-card"><h3>Offlane</h3><p>Player 3</p></div>
+        <div class="player-card"><h3>Soft Sup</h3><p>Player 4</p></div>
+        <div class="player-card"><h3>Hard Sup</h3><p>Player 5</p></div>
+    </div>
+
+    <a href="#" class="btn">Смотреть матчи на Twitch</a>
+</div>
+
+<footer>
+    &copy; 2026 RED DUDAS Esports. All rights reserved.
+</footer>
+
+</body>
+</html>
